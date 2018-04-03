@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string name="app_name">Soccerapp</string>
+    <string name="Title">Stafford soccer is always looking for players!</string>
+    <string name="textUnderTitle">For ages 5 through 19:</string>
+    <string name="web_address">Register today!\n www.staffordsoccer.com</string>
+    <string name="address">235 Garrisionville Rd Suite 102 \n
+            Stafford,VA 22554 \u0020 (540)657 \u2014 0734</string>
+    <string name="whatYouLearn">-Make new friends and learn soccer skills:\n
+            -Ball control\n
+            -Offensive skills\n
+            -Defensive skills\n
+            -Foot tricks</string>
+    <string name="seasons">-Recreational and Travel seasons available in Spring and Fall</string>
+    <string name="price">-Affordable seasons starting from $50</string>
+    <string name="allAges">-Adult league is also available for the parents and older siblings!</string>
+</resources>

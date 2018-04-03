@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/soccer" />
+
+    <TextView
+        android:id="@+id/textView1"
+        style="@style/Title"
+        android:fontFamily="@font/hanalei_fill"
+        android:text="@string/Title" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/Title"
+        android:layout_below="@+id/textView1"
+        android:fontFamily="@font/trade_winds"
+        android:text="@string/textUnderTitle" />
+
+    <TextView
+        android:id="@+id/textView3"
+        style="@style/textView"
+        android:layout_below="@id/textView2"
+        android:fontFamily="@font/carter_one"
+        android:text="@string/price" />
+
+    <TextView
+        android:id="@+id/textView4"
+        style="@style/textView"
+        android:layout_below="@id/textView3"
+        android:fontFamily="@font/carter_one"
+        android:text="@string/seasons" />
+
+    <TextView
+        android:id="@+id/textView5"
+        style="@style/textView"
+        android:layout_below="@id/textView4"
+        android:fontFamily="@font/carter_one"
+        android:text="@string/whatYouLearn" />
+
+    <TextView
+        android:id="@+id/textView6"
+        style="@style/textView"
+        android:layout_below="@id/textView5"
+        android:fontFamily="@font/carter_one"
+        android:text="@string/allAges" />
+
+    <TextView
+        style="@style/address_style"
+        android:layout_above="@id/register"
+        android:fontFamily="@font/trade_winds"
+        android:text="@string/address" />
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:autoLink="all"
+        android:background="#000000"
+        android:fontFamily="@font/carter_one"
+        android:gravity="center_horizontal"
+        android:text="@string/web_address"
+        android:textColor="#2196F3"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
